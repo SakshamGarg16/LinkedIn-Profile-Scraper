@@ -1,0 +1,4 @@
+requests
+google-search-results
+openpyxl
+duckduckgo-search
