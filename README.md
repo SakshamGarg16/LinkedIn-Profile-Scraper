@@ -33,10 +33,13 @@ Ensure you have the following installed:
 ## File Structure
 ```
 .
-├── input_companies.csv    # Input file with company names
-├── linkedin_profiles.xlsx # Output file with LinkedIn profiles
-├── script.py              # Main script file
-└── README.md              # Documentation
+├── input_companies.csv         # Input file with company names
+├── linkedin_profiles.xlsx      # Output file with LinkedIn profiles
+├── scraper_new.py              # Main script file
+├── test.py                     # Contains the same code using DuckDuckGo
+├── Guide.md                    # Contains a step by step guide to run the code
+├── requirements.txt            # Contains the requirements needed for executing
+└── README.md                   # Documentation
 ```
 
 ## Notes
