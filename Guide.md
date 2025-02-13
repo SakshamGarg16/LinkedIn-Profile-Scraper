@@ -68,6 +68,9 @@ python scraper.py
 
 - Running the script too frequently may result in a temporary block from Google. If you encounter errors, wait a few minutes before trying again.
 - For better privacy and security, consider using a **VPN** before running the script.
+- The script uses Google Search, which may be subject to rate limiting. To avoid this:
+  - Increase the sleep time in `time.sleep(random.uniform(3, 6))`.
+  - Use a VPN or rotating proxies if necessary.
 - Always ensure compliance with **LinkedIn's terms of service** when scraping data.
 
 ---
