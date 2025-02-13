@@ -14,7 +14,7 @@ Ensure you have the following installed:
 - Python 3.x
 - Required Python libraries:
   ```bash
-  pip install google-search-python openpyxl
+  pip install -r requirements.txt
   ```
 
 ## Usage
