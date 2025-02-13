@@ -51,9 +51,10 @@ for i, company in enumerate(companies):
     profiles = get_linkedin_profiles(company)
 
     for profile in profiles:
-        ws.append([profile[0], profile[1], profile[2], profile[3]])
+        ws.append([profile[0], profile[1], profile[2], "Link"])
         cell = ws.cell(row=ws.max_row, column=4)
         cell.font = Font(color="0000FF", underline="single") 
+        cell.hyperlink = profile[3] 
 
     progress = int((i + 1) / total_companies * 40)
     print(f"[{'#' * progress}{' ' * (40 - progress)}] {i+1}/{total_companies}", end="\r")
