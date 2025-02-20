@@ -35,8 +35,8 @@ Ensure you have the following installed:
 .
 ├── input_companies.csv         # Input file with company names
 ├── linkedin_profiles.xlsx      # Output file with LinkedIn profiles
-├── scraper_new.py              # Main script file
-├── test.py                     # Contains the same code using DuckDuckGo
+├── scraper.py                  # Main script file
+├── Scraper_DDGs.py             # Contains the same code using DuckDuckGo
 ├── Guide.md                    # Contains a step by step guide to run the code
 ├── requirements.txt            # Contains the requirements needed for executing
 └── README.md                   # Documentation
